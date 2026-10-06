@@ -156,10 +156,7 @@ function NavigationMenuDemo() {
             </Button>
           </SheetTrigger>
           <div className="flex flex-row gap-2 mx-2">
-            <Link
-              href="https://app.mloflo.com/sl/:BillyWatkins "
-              target="_blank"
-            >
+            <Link href="/contact-us " target="_blank">
               {" "}
               <Button
                 variant="default"
@@ -175,7 +172,7 @@ function NavigationMenuDemo() {
               className="lg:hidden bg-white hover:bg-white my-2 rounded-full text-[#04205D] h-10 w-10"
             >
               <a
-                href="https://wa.me/15738815436"
+                href="https://wa.me/ 17602013356"
                 target="_blank"
                 rel="noreferrer"
                 className="flex gap-2 justify-center w-full px-4"
@@ -262,11 +259,11 @@ function NavigationMenuDemo() {
             </nav>
             <div className="lg:hidden flex flex-col w-full items-center gap-3 text-white ">
               <Link
-                href="tel:+15738815436"
+                href="tel:+ 17602013356"
                 className="flex gap-2 justify-center w-full px-4"
               >
                 <button className="bg-white flex justify-center gap-4 text-[#04205D] px-6 w-full py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
-                  573-881-5436{" "}
+                  760-201-3356{" "}
                 </button>
               </Link>
               <Link href="/" className="w-full px-4">
@@ -331,17 +328,15 @@ function NavigationMenuDemo() {
                   <div className="border-t border-border p-4"></div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
-                <Link href="https://app.mloflo.com/sl/:BillyWatkins">
-                  Apply Now
-                </Link>
-              </NavigationMenuItem>
+              {/* <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
+                <Link href="/contact-us">Apply Now</Link>
+              </NavigationMenuItem> */}
               <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/tools">Tools</Link>
               </NavigationMenuItem>
-              <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
+              {/* <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/review">Reviews</Link>
-              </NavigationMenuItem>
+              </NavigationMenuItem> */}
               <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/contact-us">Contact me</Link>
               </NavigationMenuItem>
@@ -349,11 +344,11 @@ function NavigationMenuDemo() {
           </NavigationMenu>
         </div>
         <div className="hidden lg:flex items-center gap-3 text-white py-4">
-          <Link href="tel:+15738815436" className="flex gap-2 justify-center ">
+          <Link href="tel:+ 17602013356" className="flex gap-2 justify-center ">
             <PhoneCall />
-            <h3>573-881-5436 </h3>
+            <h3>760-201-3356 </h3>
           </Link>
-          <Link href="https://app.mloflo.com/sl/:BillyWatkins">
+          <Link href="/contact-us">
             <button className="bg-white text-[#04205D] px-6 py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
               Apply Now
             </button>

@@ -25,9 +25,20 @@ export default function Community() {
           </h2>
 
           <p className="text-[15px] text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-10 sm:mb-14">
-            i&apos;am proud of more than 15 years of serving our customers and
-            excited about the future as we continue to evolve to meet their
-            needs.
+            As a dedicated loan officer with years of experience in the
+            financial sector, I am here to serve as your personal guide through
+            the often complex process of securing a home loan. My goal is to not
+            only meet your immediate financial needs but also to provide you
+            with the knowledge and resources necessary to make informed
+            decisions about your future home loan requirements. By offering
+            personalized service tailored to each client{`'`}s unique situation, I
+            strive to ensure that you feel confident and educated about your
+            mortgage options. Whether you{`'`}re a first-time homebuyer, looking to
+            refinance, or exploring investment opportunities, my commitment is
+            to support you every step of the way, ensuring a smooth and
+            stress-free experience. Let me help you navigate the path to
+            homeownership with expertise, empathy, and a deep commitment to your
+            financial well-being.
           </p>
 
           <Link href="/contact-us">
@@ -50,9 +61,9 @@ export default function Community() {
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-2">
-              <h3 className="font-bold text-2xl text-[#111827] whitespace-nowrap">
+              {/* <h3 className="font-bold text-2xl text-[#111827] whitespace-nowrap">
                 4,000+
-              </h3>
+              </h3> */}
               <p className="text-gray-600 text-sm font-light leading-tight whitespace-nowrap sm:text-base">
                 Individual Loans
               </p>
@@ -63,12 +74,12 @@ export default function Community() {
         <>
           <div className="relative flex justify-center mt-4 lg:mt-0">
             <img
-              src="/img/bk.png"
+              src="/img/k1.png"
               alt="Community"
               className="w-full max-w-[500px] h-[250px] sm:h-[280px] lg:h-[300px] object-cover rounded-xl lg:rounded-none"
             />
 
-            <div className="absolute -bottom-10 sm:-bottom-12 left-1/2 -translate-x-1/2 bg-white rounded-[18px] sm:rounded-[22px] shadow-xl px-4 py-4 flex items-center gap-4 sm:gap-8 w-[90%] sm:w-[420px]">
+            <div className="absolute -bottom-10 sm:-bottom-18 left-1/2 -translate-x-1/2 bg-white rounded-[18px] sm:rounded-[22px] shadow-xl px-4 py-4 flex items-center gap-4 sm:gap-8 w-[90%] sm:w-[420px]">
               <div className="text-2xl sm:text-3xl">
                 <Handshake className=" text-[#ff9c78] h-8 w-8" />
               </div>

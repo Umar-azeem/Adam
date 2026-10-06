@@ -16,9 +16,9 @@ export default function Home() {
       <Education />
       <CreditBuild />
       <MortgageCalculator />
-      <Carousel />
+      {/* <Carousel /> */}
       <Loan />
-      {/* <FAQ /> */}
+      <FAQ />
     </>
   );
 }

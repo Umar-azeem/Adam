@@ -43,24 +43,26 @@ const MortgageLandingPage = () => {
           <div className="flex-1  max-w-2xl w-full text-center lg:text-left">
             <div className="hidden md:flex flex-col ">
               <p className=" text-md font-bold tracking-[0.2em] mb-6 uppercase">
-                Hi, I{`'`}m Billy Watkins
+                Hi, I{`'`}m Adam Turrubiartes
               </p>
 
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
                 Your Local
                 <br />
-                Mortgage Broker
+                Mortgage Loan Officer
               </h1>
             </div>
             <p className="text-sm sm:text-base text-gray-200 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Whether you{`'`}re purchasing your first home, refinancing, or
-              investing in commercial real estate, we{`'`}ll help you secure the
-              right financing strategy with confidence.
+              investing in real estate, I{`'`}ll help you secure the right
+              financing strategy with confidence. With 20+ years of experience,
+              I specialize in Conventional, FHA, VA, USDA, Non-QM, DSCR & ITIN
+              loans.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-4">
               <Link
-                href="https://app.mloflo.com/sl/:BillyWatkins"
+                href="https://app.mloflo.com/sl/:AdamTurrubiartes"
                 target="_blank"
               >
                 {" "}
@@ -84,7 +86,7 @@ const MortgageLandingPage = () => {
             <div className="  relative w-full max-w-[450px]">
               <div className="flex flex-col text-center p-1 md:hidden">
                 <p className="text-md font-bold tracking-[0.2em] mb-2 uppercase">
-                  Hi, I{`'`}m Billy Watkins{" "}
+                  Hi, I{`'`}m Adam Turrubiartes{" "}
                 </p>
 
                 <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-24">
@@ -95,8 +97,8 @@ const MortgageLandingPage = () => {
               </div>
               <div className="absolute md:hidden   top-32 left-1/2 -translate-x-1/2 lg:left-auto lg:-translate-x-0 lg:-left-4 xl:-left-16 z-20 md:flex items-center gap-2"></div>
               <img
-                src="/img/billyH.png"
-                alt="Adrian Webb"
+                src="/img/dp.png"
+                alt="Adam Turrubiartes"
                 className="w-full h-[400px] sm:h-[480px] lg:h-[550px] object-cover object-top rounded-2xl"
                 style={{
                   maskImage:
@@ -106,16 +108,17 @@ const MortgageLandingPage = () => {
                 }}
               />
 
-              <div className="absolute -bottom-6 sm:bottom-1 right-0 md:right-22 left-0 sm:left-auto mx-auto sm:mx-0 bg-white text-gray-900 p-5 sm:p-6 rounded-2xl shadow-2xl w-[88%] sm:w-64">
-                <h3 className="text-xl font-bold mb-2">Billy Watkins</h3>
+              <div className="absolute -bottom-6 sm:bottom-1 right-0 md:right-22 left-0 sm:left-auto mx-auto sm:mx-0 border border-gray-500 bg-gray-300 text-gray-900 p-5 sm:p-6 rounded-2xl shadow-2xl w-[88%] sm:w-64">
+                <h3 className="text-xl font-bold mb-2">Adam Turrubiartes</h3>
                 <p className="text-gray-600 text-sm mb-1">
-                  Senior Licensed Mortgage Broker
+                  Loan Officer
                 </p>
-                <p className="text-gray-500 text-xs mb-1">NMLS ID: 384700</p>
+                <p className="text-gray-500 text-xs mb-1">NMLS ID: 234339</p>
                 <div className="flex items-center gap-3 w-full">
                   <a
-                    href="https://facebook.com/BillyWatkinsMortgage"
-                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
+                    href="https://www.facebook.com/p/Adam-Turrubiartes-Home-Loans-NMLS-234339-100086573558742/"
+                    target="_blank"
+                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon
                       src={icons.facebook}
@@ -124,23 +127,25 @@ const MortgageLandingPage = () => {
                     />
                   </a>
                   <a
-                    href="https://www.instagram.com/billy.watkins_home.loans/"
-                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
+                    href="https://www.instagram.com/adamknowslending/"
+                    target="_blank"
+                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon src={icons.instagram} size={18} />
                   </a>
                   <a
-                    href="https://linkedin.com/in/BillyWatkinsMortgage"
-                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
+                    href="https://www.linkedin.com/in/adam-turrbo"
+                    target="_blank"
+                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon src={icons.linkedin} size={18} />
                   </a>
-                  <a
+                  {/* <a
                     href="https://share.google/58EeohLOQ10kKQ6Y2"
                     className=" w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon src={icons.google} size={18} />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

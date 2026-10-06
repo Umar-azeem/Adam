@@ -86,11 +86,11 @@ function Consider() {
                   <span>Billy@billywatkinsmortgage.com</span>
                 </a>
                 <a
-                  href="tel:573-881-5436"
+                  href="tel:760-201-3356"
                   className="flex items-center gap-3 hover:text-green-200 transition"
                 >
                   <Phone className="w-4 h-4 text-green-300 shrink-0" />
-                  <span>573-881-5436</span>
+                  <span>760-201-3356</span>
                 </a>
               </div>
             </div>

@@ -15,26 +15,26 @@ const Loan: React.FC = () => {
       id: "facebook",
       src: "https://api.iconify.design/flowbite:facebook-solid.svg?color=%23000000",
       alt: "Facebook",
-      url: "https://facebook.com/BillyWatkinsMortgage",
+      url: "https://www.facebook.com/p/Adam-Turrubiartes-Home-Loans-NMLS-234339-100086573558742/",
     },
     {
       id: "instagram",
       src: "https://api.iconify.design/famicons:logo-instagram.svg?color=%23000000",
       alt: "Instagram",
-      url: "https://www.instagram.com/billy.watkins_home.loans/",
+      url: "https://www.instagram.com/adamknowslending/",
     },
     {
       id: "linkedin",
       src: "https://api.iconify.design/uim:linkedin-alt.svg?color=%23000000",
       alt: "LinkedIn",
-      url: "https://linkedin.com/in/BillyWatkinsMortgage",
+      url: "https://www.linkedin.com/in/adam-turrbo",
     },
-    {
-      id: "google",
-      src: "https://api.iconify.design/ion:logo-google.svg?color=%23000000",
-      alt: "Google",
-      url: "https://share.google/58EeohLOQ10kKQ6Y2",
-    },
+    // {
+    //   id: "google",
+    //   src: "https://api.iconify.design/ion:logo-google.svg?color=%23000000",
+    //   alt: "Google",
+    //   url: "https://share.google/58EeohLOQ10kKQ6Y2",
+    // },
   ];
 
   return (
@@ -55,7 +55,7 @@ const Loan: React.FC = () => {
             specific needs and find the perfect home loan for you.
           </p>
 
-          <Link href="https://app.mloflo.com/sl/:BillyWatkins" target="_blank">
+          <Link href="https://app.mloflo.com/sl/:AdamTurrubiartes" target="_blank">
             {" "}
             <button
               className="mt-8 sm:mt-10 inline-flex items-center gap-3 bg-[#04205D] hover:bg-[#04205D]/80 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold transition mx-auto lg:mx-0"
@@ -78,8 +78,8 @@ const Loan: React.FC = () => {
             {/* Background block + photo, fixed aspect ratio so sizing never drifts */}
             <div className="relative aspect-[4/6] md:aspect-[4/3] w-full bg-[#04205D] rounded-[20px] overflow-hidden">
               <Image
-                src="/img/billyH.png"
-                alt="Advisor"
+                src="/img/dp.png"
+                alt="Adam Turrubiartes"
                 fill
                 className="object-contain object-bottom"
                 priority
@@ -89,12 +89,12 @@ const Loan: React.FC = () => {
 
             <div className="absolute  flex flex-col md:hidden z-10 top-6 left-1/2 -translate-x-1/2 sm:left-6 sm:translate-x-0 bg-white rounded-[24px] sm:rounded-[30px] shadow-2xl p-5 sm:p-6 w-[70%] sm:w-[240px]">
               <h3 className="text-lg sm:text-xl font-bold text-black">
-                Billy Watkins
+                Adam Turrubiartes
               </h3>
               <p className="text-gray-800 mt-2 text-xs">
-                 Senior Licensed Mortgage Broker
+                 Loan Officer
               </p>
-              <p className="text-gray-800 text-xs mt-2">NMLS ID: 384700</p>
+              <p className="text-gray-800 text-xs mt-2">NMLS ID: 234339</p>
             </div>
           </div>
 

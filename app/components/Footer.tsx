@@ -45,10 +45,10 @@ export default function Footer() {
               unoptimized
             />
             <Link
-              href="tel:2067958411"
+              href="tel:+17602013356"
               className="hover:text-gray-300 transition-colors"
             >
-              (573)-881-5436
+              (760) 201-3356
             </Link>
           </p>
 
@@ -62,35 +62,16 @@ export default function Footer() {
               unoptimized
             />
             <Link
-              href="mailto:adrian@teamwebbloans.com"
+              href="mailto:adamturbo@hotmail.com"
               className="break-all hover:text-gray-300 transition-colors"
             >
-              Billy@billywatkinsmortgage.com
+              adamturbo@hotmail.com
             </Link>
           </p>
 
           <p className="mb-4 flex items-start gap-2">
             <BadgeCheck />
-            {/* <Image
-              src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b96_location-on-white.svg"
-              alt="Location"
-              width={20}
-              height={20}
-              className="w-5 h-5 flex-shrink-0 mt-0.5"
-              unoptimized
-            /> */}
-            {/* <Link
-              href="https://maps.google.com/?q=128+Union+Street,+Suite+101,+New+Bedford,+MA+02740"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-300 transition-colors"
-            >
-              <br /> NMLS #384700
-            </Link>
-            <Link  href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
-              www.nmlsconsumeraccess.org
-            </Link> */}
-            <p className="flex"> NMLS #384700</p>
+            <p className="flex"> NMLS #234339</p>
           </p>
 
           {/* Social Links Row */}
@@ -99,23 +80,23 @@ export default function Footer() {
               {
                 src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62afd_ri_facebook-fill-white.svg",
                 alt: "Facebook",
-                href: "https://facebook.com/BillyWatkinsMortgage",
+                href: "https://www.facebook.com/p/Adam-Turrubiartes-Home-Loans-NMLS-234339-100086573558742/",
               },
               {
                 src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62c30_linkedin-white.svg",
                 alt: "LinkedIn",
-                href: "https://linkedin.com/in/BillyWatkinsMortgage",
+                href: "https://www.linkedin.com/in/adam-turrbo",
               },
               {
                 src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b8f_instagram-white.svg",
                 alt: "Instagram",
-                href: "https://www.instagram.com/billy.watkins_home.loans/",
+                href: "https://www.instagram.com/adamknowslending/",
               },
-              {
-                src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62ca8_mdi_youtube.svg",
-                alt: "YouTube",
-                href: "https://share.google/58EeohLOQ10kKQ6Y2",
-              },
+              // {
+              //   src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62ca8_mdi_youtube.svg",
+              //   alt: "YouTube",
+              //   href: "https://share.google/58EeohLOQ10kKQ6Y2",
+              // },
             ].map(({ src, alt, href }) => (
               <Link
                 key={alt}
@@ -137,7 +118,7 @@ export default function Footer() {
             <div className="flex md:hidden flex-col items-center -mt-6">
             <Image
               src="/img/logo.png"
-              alt="Adrian Webb Logo"
+              alt="Adam Turrubiartes Logo"
               width={100}
               height={100}
               className="w-32 h-auto"
@@ -168,7 +149,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:mt-20">
             <Image
               src="/img/logo.png"
-              alt="Adrian Webb Logo"
+              alt="Adam Turrubiartes Logo"
               width={100}
               height={100}
               className="w-32 h-auto"

@@ -148,7 +148,7 @@ export default function AboutPage() {
       challenge:
         "A Navy veteran wanted to purchase a home with zero down payment but was unsure how to navigate the VA loan process.",
       solution:
-        "As a fellow veteran, I walked them through every step, from obtaining their COE to understanding the VA appraisal.",
+        "As a fellow advocate for the Veteran community, I walked them through every step, from obtaining their COE to understanding the VA appraisal.",
       outcome:
         "Purchased their first home with 0% down and no monthly mortgage insurance.",
     },
@@ -200,7 +200,7 @@ export default function AboutPage() {
       a: "PMI is required on conventional loans with less than 20% down. FHA loans have mortgage insurance premiums (MIP) for the life of the loan.",
     },
     {
-      q: "How does Billy monitor rates for me after closing?",
+      q: "How does Adam monitor rates for me after closing?",
       a: "I provide ongoing rate monitoring and will reach out if refinancing becomes beneficial based on market conditions.",
     },
   ];
@@ -229,18 +229,7 @@ export default function AboutPage() {
   ];
 
   const states = [
-    "AL",
     "CA",
-    "FL",
-    "GA",
-    "MO",
-    "NC",
-    "OR",
-    "PA",
-    "SC",
-    "TN",
-    "TX",
-    "VA",
   ];
 
   return (
@@ -260,10 +249,10 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-green-300 font-bold tracking-[4px] text-sm mb-4">
-                Trusted Mortgage Advisor
+                Trusted Mortgage Loan Officer
               </p>
-              <div className="flex flex-wrap items-center gap-3 mb-4">
-                <p className="text-green-200 text-sm">(NMLS #384700)</p>
+              {/* <div className="flex flex-wrap items-center gap-3 mb-4">
+                <p className="text-green-200 text-sm">(NMLS #234339)</p>
                 <Link
                   href="https://www.zillow.com/lender-profile/Billy%20R%20Watkins%20III/#reviews"
                   target="_blank"
@@ -280,18 +269,19 @@ export default function AboutPage() {
                   </div>
                   <span className="text-white font-semibold text-sm">5.0</span>
                   <span className="text-green-200 text-xs sm:text-sm">
-                    22 Reviews (0 Recent | 2 Verified)
+                    Reviews
                   </span>
                   <Icons.ExternalLink className="w-3.5 h-3.5 text-green-200" />
                 </Link>
-              </div>
+              </div> */}
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
                 A guidance-first mortgage experience built on two decades of
                 financial expertise
               </h1>
               <p className="text-gray-200 text-lg max-w-xl mb-8">
-                Military discipline, and an unwavering commitment to you during
-                your Residential Home and Commercial property financing goals.
+                Two decades of financial expertise and an unwavering commitment
+                to you during your Residential Home and Commercial property
+                financing goals.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact-us">
@@ -299,9 +289,9 @@ export default function AboutPage() {
                     Get pre Approved
                   </button>
                 </Link>
-                <Link href="https://wa.me/15738815436">
+                <Link href="https://wa.me/17602013356">
                   <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition">
-                    Ask Billy a Question
+                    Ask Adam a Question
                   </button>
                 </Link>
               </div>
@@ -311,8 +301,8 @@ export default function AboutPage() {
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
                 <div className="absolute inset-0 rounded-full bg-[#04205D]/95 animate-pulse" />
                 <Image
-                  src="/img/billyH.png"
-                  alt="Billy Watkins - Trusted Mortgage Advisor"
+                  src="/img/dp.png"
+                  alt="Adam Turrubiartes - Trusted Mortgage Loan Officer"
                   fill
                   className="rounded-full object-cover border-4 border-white/20 shadow-2xl"
                   priority
@@ -329,47 +319,46 @@ export default function AboutPage() {
       <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
         <section className="mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Meet Billy Watkins
+            Meet Adam Turrubiartes
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
               <p className="text-gray-700 leading-relaxed mb-4">
-                My journey into mortgage lending and real estate finance was
-                forged through diverse experiences that shaped my unique,
-                client-first approach to home financing. Raised with the
-                grounded values of small-town Missouri, I learned the importance
-                of community trust and financial integrity—principles that guide
-                every loan application and refinance consultation.
+                For over 20 years I have been blessed to help so many new home
+                buyers, investors, and families. I started behind the scenes
+                processing loans and quickly moved to junior underwriting. I can
+                pre-underwrite a file, review complicated taxes, and make the
+                complicated seem easy. I will put together a specific game plan
+                for your income, assets, and credit so we can get you the
+                financing needed to achieve your goals.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                That foundation was solidified during my service in the US Navy,
-                where I embraced discipline and meticulous attention to detail
-                in high-stakes environments. These military-honed skills
-                translate directly to mortgage underwriting precision and loan
-                processing excellence. After my service, I graduated from the
-                University of Houston and built a 20+ year career in finance,
-                spanning residential lending, commercial property financing, tax
-                planning, and financial audit.
+                My life experiences have allowed me to work closely with the
+                Latino and Veteran community. I very much enjoy educating and
+                empowering our underserved communities so they make educated
+                decisions with their finances. I specialize in making the home
+                loan process quick and easy.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                This comprehensive expertise in debt-to-income analysis, credit
-                evaluation, and loan structuring allows me to navigate complex
-                financing scenarios from first-time homebuyer FHA loans to
-                sophisticated DSCR investment property acquisitions. Whether
-                you're seeking a conventional purchase loan, VA mortgage
-                benefits, jumbo financing, or exploring cash-out refinance
-                options, my background in both residential and commercial
-                lending ensures you receive expert guidance tailored to your
-                specific homeownership goals and investment objectives.
+                In addition to finding the best mortgage options for my clients,
+                I provide personalized support and guidance throughout the
+                entire process, from pre-approval to closing. I believe in
+                building long-lasting relationships with my clients, and I am
+                committed to helping them achieve their goal of homeownership.
+                My expertise spans Conventional, FHA, VA, USDA, Non-QM, DSCR,
+                and ITIN loans — ensuring you receive expert guidance tailored
+                to your specific homeownership goals and investment objectives.
               </p>
               <div className="mt-6">
-                <p className="font-semibold text-gray-900">Billy Watkins</p>
+                <p className="font-semibold text-gray-900">
+                  Adam Turrubiartes
+                </p>
                 <Link
-                  href="tel:5738815436"
+                  href="tel:7602013356"
                   className="text-[#04205D] font-medium flex items-center gap-2 mt-1"
                 >
                   <Icons.Phone className="w-4 h-4" />
-                  Call Now: 573-881-5436
+                  Call Now: 760-201-3356
                 </Link>
               </div>
             </div>
@@ -379,14 +368,13 @@ export default function AboutPage() {
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                   <Image
                     src="/img/h3.jpg"
-                    alt="Billy and his wife Thais, Married 03.15.2020"
+                    alt="Adam Turrubiartes"
                     fill
                     className="object-cover"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
                     <p className="text-white text-xs font-medium">
-                      Wedding collage of Billy and his wife Thais, Married
-                      03.15.2020
+                      Adam Turrubiartes
                     </p>
                   </div>
                 </div>
@@ -394,26 +382,26 @@ export default function AboutPage() {
               <div className="relative aspect-square rounded-lg overflow-hidden">
                 <Image
                   src="/img/h1.jpg"
-                  alt="Billy completing one of many long distance endurance events"
+                  alt="Adam Turrubiartes"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-2">
                   <p className="text-white text-[10px] font-medium">
-                    Long distance endurance events
+                    Adam Turrubiartes
                   </p>
                 </div>
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
                 <Image
                   src="/img/h2.jpg"
-                  alt="Billy, his wife Thais, and their son Emmerik"
+                  alt="Adam Turrubiartes"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-2">
                   <p className="text-white text-[10px] font-medium">
-                    Billy, Thais, and son Emmerik
+                    Adam Turrubiartes
                   </p>
                 </div>
               </div>
@@ -547,7 +535,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <span className="font-semibold text-gray-700">
-                      Solution Guided by Billy Watkins:
+                      Solution Guided by Adam Turrubiartes:
                     </span>
                     <p className="text-gray-600 mt-1">{study.solution}</p>
                   </div>

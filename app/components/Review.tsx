@@ -159,7 +159,7 @@ export default function ReviewsPage() {
             Contact us
           </a>
           <a
-            href="https://app.mloflo.com/sl/:BillyWatkins"
+            href="/contact-us"
             target="_blank"
             className="flex-1 bg-white hover:bg-gray-50 text-[#04205D] text-center px-6 py-4 rounded-xl font-semibold transition border-2 border-[#04205D] flex items-center justify-center gap-2"
           >

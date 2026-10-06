@@ -10,26 +10,26 @@ const socialLinks = [
     id: "facebook",
     src: "https://api.iconify.design/uim:facebook-f.svg?color=%23004D22",
     alt: "Facebook",
-    url: "https://facebook.com/BillyWatkinsMortgage",
+    url: "https://www.facebook.com/p/Adam-Turrubiartes-Home-Loans-NMLS-234339-100086573558742/",
   },
   {
     id: "instagram",
     src: "https://api.iconify.design/uim:instagram.svg?color=%23004D22",
     alt: "Instagram",
-    url: "https://www.instagram.com/billy.watkins_home.loans/",
+    url: "https://www.instagram.com/adamknowslending/",
   },
   {
     id: "linkedin",
     src: "https://api.iconify.design/uim:linkedin-alt.svg?color=%23004D22",
     alt: "LinkedIn",
-    url: "https://linkedin.com/in/BillyWatkinsMortgage",
+    url: "https://www.linkedin.com/in/adam-turrbo",
   },
-  {
-    id: "zillow",
-    src: "https://api.iconify.design/simple-icons:zillow.svg?color=%23004D22",
-    alt: "Zillow",
-    url: "https://zillow.com/lender-profile/BillyWatkinsMortgage",
-  },
+  // {
+  //   id: "zillow",
+  //   src: "https://api.iconify.design/simple-icons:zillow.svg?color=%23004D22",
+  //   alt: "Zillow",
+  //   url: "https://zillow.com/lender-profile/BillyWatkinsMortgage",
+  // },
 ];
 
 export default function Contact() {
@@ -63,11 +63,11 @@ Message:
 ${message || "No additional message provided."}
 
 ---
-This inquiry was sent from the Billy Watkins Mortgage website.`,
+This inquiry was sent from the Adam Turrubiartes website.`,
     );
 
     window.open(
-      `mailto:Billy@billywatkinsmortgage.com?subject=${emailSubject}&body=${emailBody}`,
+      `mailto:adamturbo@hotmail.com?subject=${emailSubject}&body=${emailBody}`,
       "_blank",
     );
 
@@ -91,10 +91,10 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
           <p className="text-slate-500 text-sm mb-6">
             If it didn't open, please contact us directly at{" "}
             <a
-              href="mailto:Billy@billywatkinsmortgage.com"
+              href="mailto:adamturbo@hotmail.com"
               className="text-[#04205D] underline font-medium"
             >
-              Billy@billywatkinsmortgage.com
+              adamturbo@hotmail.com
             </a>
           </p>
           <Button
@@ -126,10 +126,10 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
 
         <div className="relative z-10 max-w-4xl mx-auto  p-13">
           <p className="text-green-300 uppercase tracking-[4px] font-bold text-xs sm:text-sm mb-3">
-             Senior Licensed Mortgage Broker
+            Loan Officer
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-6">
-            Contact Billy Watkins
+            Contact Adam Turrubiartes
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto font-light">
             Ready for a clear, straightforward mortgage plan? Let&apos;s
@@ -147,7 +147,8 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
               </h2>
               <p className="text-gray-600 leading-relaxed text-[15px]">
                 You&apos;re not just filling out a form. You&apos;re starting a
-                conversation with an experienced real estate investor and  Senior Licensed Mortgage Broker.
+                conversation with an experienced Loan Officer with 20+ years
+                helping home buyers, investors, and families.
               </p>
             </div>
 
@@ -185,7 +186,7 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
               <h3 className="font-semibold text-lg">Other Ways to Connect</h3>
 
               <a
-                href="tel:573-881-5436"
+                href="tel:760-201-3356"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#04205D] shrink-0 group-hover:bg-[#04205D] group-hover:text-white transition">
@@ -193,7 +194,7 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#04205D] transition">
-                    573-881-5436
+                    760-201-3356
                   </p>
                   <p className="text-gray-500 text-xs mt-1">
                     Call or Text for a Quick Chat, any time, 7 days a week
@@ -202,7 +203,7 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
               </a>
 
               <a
-                href="mailto:Billy@billywatkinsmortgage.com"
+                href="mailto:adamturbo@hotmail.com"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#04205D] shrink-0 group-hover:bg-[#04205D] group-hover:text-white transition">
@@ -210,7 +211,7 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#04205D] transition break-all">
-                    Billy@billywatkinsmortgage.com
+                    adamturbo@hotmail.com
                   </p>
                   <p className="text-gray-500 text-xs mt-1">
                     Email for Detailed Inquiries
@@ -229,7 +230,7 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
                   <p className="text-gray-600 text-sm mt-1">
                     Mon – Sun: 8:30 AM – 7:00 PM{" "}
                     <span className="text-gray-400 font-medium text-xs block sm:inline sm:ml-1">
-                      (Central Standard Time)
+                      (Pacific Standard Time)
                     </span>
                   </p>
                 </div>
@@ -272,18 +273,18 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
 
               <div className="flex flex-wrap gap-3 mb-6">
                 <a
-                  href="mailto:Billy@billywatkinsmortgage.com"
+                  href="mailto:adamturbo@hotmail.com"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Mail className="w-3.5 h-3.5" />
-                  Billy@billywatkinsmortgage.com
+                  adamturbo@hotmail.com
                 </a>
                 <a
-                  href="tel:573-881-5436"
+                  href="tel:760-201-3356"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  573-881-5436
+                  760-201-3356
                 </a>
               </div>
 
@@ -473,7 +474,7 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
       <footer className="bg-white border-t border-gray-200 py-12 text-xs text-gray-500 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-4">
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2 font-medium text-gray-700 text-sm">
-            <span>NMLS #384700</span>
+            <span>NMLS #234339</span>
             <a
               href="https://www.nmlsconsumeraccess.org"
               target="_blank"
@@ -484,14 +485,15 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
             </a>
           </div>
           <p className="leading-relaxed">
-            <strong>Equal Housing Opportunity:</strong> Billy Watkins Mortgage
-            is an Equal Housing Opportunity lender. We are pledged to the letter
+            <strong>Equal Housing Opportunity:</strong> Adam Turrubiartes is an
+            Equal Housing Opportunity lender. We are pledged to the letter
             and spirit of U.S. policy for the achievement of equal housing
             opportunity throughout the Nation.
           </p>
           <p className="text-gray-400 leading-relaxed">
-            NMLS #384700 — Licensed in AL, CA, FL, GA, MO, NC, OR, PA, SC, TN,
-            TX, VA.
+            NMLS #234339 | Company NMLS #236419 | DBA: Western Capital MTG |
+            NMLS Unique Identifier #1916128. 860 Kuhn Drive, Suite 106, Chula
+            Vista, CA 91914.
           </p>
         </div>
       </footer>
